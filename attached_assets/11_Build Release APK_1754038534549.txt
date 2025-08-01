@@ -1,0 +1,49 @@
+﻿2025-08-01T08:51:40.8431877Z ##[group]Run flutter build apk --release
+2025-08-01T08:51:40.8432211Z [36;1mflutter build apk --release[0m
+2025-08-01T08:51:40.8458976Z shell: /usr/bin/bash -e {0}
+2025-08-01T08:51:40.8459210Z env:
+2025-08-01T08:51:40.8459464Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-08-01T08:51:40.8459863Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-08-01T08:51:40.8460258Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.24.0-x64
+2025-08-01T08:51:40.8460590Z   PUB_CACHE: /home/runner/.pub-cache
+2025-08-01T08:51:40.8460819Z ##[endgroup]
+2025-08-01T08:51:41.3460117Z 
+2025-08-01T08:53:37.6872572Z Running Gradle task 'assembleRelease'...                        
+2025-08-01T08:53:37.6878344Z Checking the license for package Android SDK Build-Tools 33.0.1 in /usr/local/lib/android/sdk/licenses
+2025-08-01T08:53:37.6880727Z License for package Android SDK Build-Tools 33.0.1 accepted.
+2025-08-01T08:53:37.6881420Z Preparing "Install Android SDK Build-Tools 33.0.1 v.33.0.1".
+2025-08-01T08:53:38.7601014Z "Install Android SDK Build-Tools 33.0.1 v.33.0.1" ready.
+2025-08-01T08:53:38.7606430Z Installing Android SDK Build-Tools 33.0.1 in /usr/local/lib/android/sdk/build-tools/33.0.1
+2025-08-01T08:53:38.7607621Z "Install Android SDK Build-Tools 33.0.1 v.33.0.1" complete.
+2025-08-01T08:53:38.8605574Z "Install Android SDK Build-Tools 33.0.1 v.33.0.1" finished.
+2025-08-01T08:54:13.8614946Z Font asset "CupertinoIcons.ttf" was tree-shaken, reducing it from 257628 to 1896 bytes (99.3% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+2025-08-01T08:54:13.8621985Z Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 1432 bytes (99.9% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+2025-08-01T08:54:25.1624385Z 
+2025-08-01T08:54:25.1625179Z FAILURE: Build failed with an exception.
+2025-08-01T08:54:25.1625829Z 
+2025-08-01T08:54:25.1630661Z * What went wrong:
+2025-08-01T08:54:25.1632738Z Execution failed for task ':app:mergeReleaseResources'.
+2025-08-01T08:54:25.1634111Z > Multiple task action failures occurred:
+2025-08-01T08:54:25.1637952Z    > A failure occurred while executing com.android.build.gradle.internal.res.Aapt2CompileRunnable
+2025-08-01T08:54:25.1643261Z       > Android resource compilation failed
+2025-08-01T08:54:25.1648871Z         ERROR: /home/runner/work/Gallery-IOS/Gallery-IOS/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png: AAPT: error: file failed to compile.
+2025-08-01T08:54:25.1658414Z 
+2025-08-01T08:54:25.1659067Z    > A failure occurred while executing com.android.build.gradle.internal.res.Aapt2CompileRunnable
+2025-08-01T08:54:25.1659916Z       > Android resource compilation failed
+2025-08-01T08:54:25.1660997Z         ERROR: /home/runner/work/Gallery-IOS/Gallery-IOS/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png: AAPT: error: file failed to compile.
+2025-08-01T08:54:25.1661950Z 
+2025-08-01T08:54:25.1662434Z    > A failure occurred while executing com.android.build.gradle.internal.res.Aapt2CompileRunnable
+2025-08-01T08:54:25.1666808Z       > Android resource compilation failed
+2025-08-01T08:54:25.1673742Z         ERROR: /home/runner/work/Gallery-IOS/Gallery-IOS/android/app/src/main/res/mipmap-hdpi/ic_launcher.png: AAPT: error: file failed to compile.
+2025-08-01T08:54:25.1679336Z 
+2025-08-01T08:54:25.1683739Z 
+2025-08-01T08:54:25.1688500Z * Try:
+2025-08-01T08:54:25.1692442Z > Run with --stacktrace option to get the stack trace.
+2025-08-01T08:54:25.1696252Z > Run with --info or --debug option to get more log output.
+2025-08-01T08:54:25.1699847Z > Run with --scan to get full insights.
+2025-08-01T08:54:25.1703545Z > Get more help at https://help.gradle.org.
+2025-08-01T08:54:25.1705376Z 
+2025-08-01T08:54:25.1706893Z BUILD FAILED in 2m 43s
+2025-08-01T08:54:25.6382148Z Running Gradle task 'assembleRelease'...                          164.2s
+2025-08-01T08:54:25.6428019Z Gradle task assembleRelease failed with exit code 1
+2025-08-01T08:54:25.6501479Z ##[error]Process completed with exit code 1.
