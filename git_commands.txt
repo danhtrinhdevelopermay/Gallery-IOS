@@ -1,0 +1,25 @@
+# Các lệnh Git để push dự án lên GitHub
+
+# 1. Khởi tạo Git repository (nếu chưa có)
+git init
+
+# 2. Thêm tất cả files vào staging
+git add .
+
+# 3. Commit với message
+git commit -m "Initial commit: iOS Gallery App with GitHub Actions"
+
+# 4. Thêm remote repository (thay YOUR_USERNAME và YOUR_REPO_NAME)
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+
+# 5. Push lên GitHub
+git push -u origin main
+
+# Nếu gặp lỗi authentication, có thể cần:
+# - Tạo Personal Access Token trên GitHub
+# - Hoặc sử dụng SSH key
+
+# Các lệnh kiểm tra trạng thái:
+git status              # Xem trạng thái files
+git log --oneline       # Xem lịch sử commit
+git remote -v           # Xem remote repositories
