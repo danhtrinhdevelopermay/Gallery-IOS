@@ -1,0 +1,52 @@
+﻿2025-08-01T08:27:00.4027210Z ##[group]Run flutter build apk --release
+2025-08-01T08:27:00.4027531Z [36;1mflutter build apk --release[0m
+2025-08-01T08:27:00.4052036Z shell: /usr/bin/bash -e {0}
+2025-08-01T08:27:00.4052257Z env:
+2025-08-01T08:27:00.4052488Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-08-01T08:27:00.4052868Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-08-01T08:27:00.4053253Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.24.0-x64
+2025-08-01T08:27:00.4053569Z   PUB_CACHE: /home/runner/.pub-cache
+2025-08-01T08:27:00.4053786Z ##[endgroup]
+2025-08-01T08:27:00.8976568Z 
+2025-08-01T08:28:32.7203863Z Running Gradle task 'assembleRelease'...                        
+2025-08-01T08:28:32.7208157Z 
+2025-08-01T08:28:32.7211886Z FAILURE: Build completed with 2 failures.
+2025-08-01T08:28:32.7973079Z 
+2025-08-01T08:28:32.7974365Z 1: Task failed with an exception.
+2025-08-01T08:28:32.7983729Z -----------
+2025-08-01T08:28:32.7990220Z * Where:
+2025-08-01T08:28:32.7997025Z Build file '/home/runner/work/Gallery-IOS/Gallery-IOS/android/build.gradle' line: 26
+2025-08-01T08:28:32.7998152Z 
+2025-08-01T08:28:32.7999065Z * What went wrong:
+2025-08-01T08:28:32.8013420Z A problem occurred evaluating root project 'android'.
+2025-08-01T08:28:32.8016879Z > A problem occurred configuring project ':app'.
+2025-08-01T08:28:32.8031272Z    > Removing unused resources requires unused code shrinking to be turned on. See http://d.android.com/r/tools/shrink-resources.html for more information.
+2025-08-01T08:28:32.8053448Z 
+2025-08-01T08:28:32.8059069Z * Try:
+2025-08-01T08:28:32.8087859Z > Run with --stacktrace option to get the stack trace.
+2025-08-01T08:28:32.8091240Z > Run with --info or --debug option to get more log output.
+2025-08-01T08:28:32.8091838Z > Run with --scan to get full insights.
+2025-08-01T08:28:32.8092347Z > Get more help at https://help.gradle.org.
+2025-08-01T08:28:32.8092844Z ==============================================================================
+2025-08-01T08:28:32.8093194Z 
+2025-08-01T08:28:32.8093386Z 2: Task failed with an exception.
+2025-08-01T08:28:32.8093789Z -----------
+2025-08-01T08:28:32.8094078Z * Where:
+2025-08-01T08:28:32.8094854Z Build file '/home/runner/work/Gallery-IOS/Gallery-IOS/android/build.gradle' line: 26
+2025-08-01T08:28:32.8095418Z 
+2025-08-01T08:28:32.8095536Z * What went wrong:
+2025-08-01T08:28:32.8095928Z A problem occurred evaluating root project 'android'.
+2025-08-01T08:28:32.8096483Z > A problem occurred configuring project ':app'.
+2025-08-01T08:28:32.8097638Z    > Removing unused resources requires unused code shrinking to be turned on. See http://d.android.com/r/tools/shrink-resources.html for more information.
+2025-08-01T08:28:32.8098618Z 
+2025-08-01T08:28:32.8098729Z * Try:
+2025-08-01T08:28:32.8099102Z > Run with --stacktrace option to get the stack trace.
+2025-08-01T08:28:32.8112446Z > Run with --info or --debug option to get more log output.
+2025-08-01T08:28:32.8118182Z > Run with --scan to get full insights.
+2025-08-01T08:28:32.8121496Z > Get more help at https://help.gradle.org.
+2025-08-01T08:28:32.8125396Z ==============================================================================
+2025-08-01T08:28:32.8128619Z 
+2025-08-01T08:28:32.8185132Z BUILD FAILED in 1m 31s
+2025-08-01T08:28:33.2334965Z Running Gradle task 'assembleRelease'...                           92.3s
+2025-08-01T08:28:33.2399676Z Gradle task assembleRelease failed with exit code 1
+2025-08-01T08:28:33.2486582Z ##[error]Process completed with exit code 1.
